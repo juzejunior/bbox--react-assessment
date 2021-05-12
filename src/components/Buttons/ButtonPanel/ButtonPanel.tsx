@@ -1,6 +1,6 @@
 import React from "react";
-import "./ButtonPanel.css";
-import "./Button.css";
+import "./styles/ButtonPanel.css";
+import "./styles/Button.css";
 
 type CallBack = (...args: any[]) => void
 

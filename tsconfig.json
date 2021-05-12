@@ -8,8 +8,9 @@
     ],
     "baseUrl": ".",
     "paths": {
-      "@config/*": ["./src/config/*"],
-      "@component/*": ["./src/component/*"]
+      "@config/*": ["config/*"],
+      "@components/*": ["./src/components/*"],
+      "@pages/*": ["./src/pages/*"],
     },
     "allowJs": true,
     "skipLibCheck": true,
@@ -26,6 +27,6 @@
     "jsx": "react-jsx"
   },
   "include": [
-    "src"
-  ]
+    "./src"
+, "config"  ]
 }
